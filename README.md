@@ -1,9 +1,9 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=330px height=200px src="https://pointblancmedia.com/wp-content/uploads/2020/04/url-shortener-theplungedaily.jpg" alt="Project logo"></a>
+ <img width=330px height=200px src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1200px-Flask_logo.svg.png" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Url Shroter API</h3>
+<h3 align="center"> Flask App</h3>
 
 <div align="center">
 
@@ -13,7 +13,7 @@
 
 ---
 
-<p align="center"> URL Shorter Demo API.
+<p align="center"> Flask App BoilerPlate.
     <br> 
 </p>
 
@@ -36,21 +36,14 @@ You need **[Python 3.7](https://www.python.org/downloads/release/python-377/)** 
 - Clone the repo
 
   ```
-  git clone https://github.com/sameh-rm/url-shorter-using-bitly-api.git
+  git clone https://github.com/sameh-rm/flask-boilerplate
   ```
 
 - your dotenv file must contain
 
   ```bash
-    # Environment variables
-    SECRET_KEY=YOUR_SECRET_KEY
-    # mlab MONGO URI
-    MONGO_URI=YOUR_MONGO_URI
-    MONGO_TEST_URI=YOUR_MONGO_TEST_URI
-    # DOMAIN variable is used as a prefix to the local api shortened link id
-    DOMAIN=YOUR_DOMAIN
-    # Bitly access token
-    ACCESS_TOKEN=YOUR_ACCESS_TOKEN
+    DB_URI
+    SECRET_KEY
   ```
 
 ### Installing
@@ -90,27 +83,8 @@ You need **[Python 3.7](https://www.python.org/downloads/release/python-377/)** 
   python manage.py run
   ```
 
-##### &nbsp;&nbsp;Frontend
-
-- cd into the frontend folder
-  - npm, run:
-    ```bash
-    npm install
-    ```
-  - yarn, run:
-    ```bash
-    yarn install
-    ```
-
-* start frontend:
-  ```bash
-  yarn start #or
-  npm start
-  ```
-
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
 - [FLASK RESTPLUS](https://flask-restplus.readthedocs.io/en/stable/index.html) - Flask Rest Plus framework
 - [FLASK](https://flask.palletsprojects.com/en/2.0.x/) - Python Web Framework
 - [Python](https://www.python.org/) - Python 3.7
